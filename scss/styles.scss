@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.index{
+    header{
+        background-image:
+        radial-gradient(rgba(0, 34, 93, 0), rgba(0, 0, 0, 1)), 
+        url("../img/avion-img.jpg");
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 25rem;
+        .presentacion-index{
+            padding: 0 70px;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            .nav{
+                border-bottom: 1px solid white;
+                ul{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    gap: 1.5rem;
+                    padding-top: 10px;
+                    li{
+                        a{
+                           text-decoration: none;
+                           color: white; 
+                        }
+                        a:hover{
+                            border-bottom: 2px solid red;
+                            transition: 1s;
+                        }
+                        list-style: none;
+                    }
+                }
+                
+            }
+            .titulo-index{
+                color: white;
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+                h1{
+                    font-size: 2.5rem;
+                    font-weight: bold;
+                    font-family: 'Courier New', Courier, monospace;
+                }
+                p{
+                    width: 20rem;
+                }
+            }
+        }
+    }
+    main{
+        h2{
+            background-color: black;
+        }
+    }
+    
+}
